@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File - Uploader plugin</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+
+    <div class="bottom">
+        <section class="file-view">
+            <!-- <div class="file">
+                <button class="close">&times;</button>
+                <img src="img/117874947_3201764546609188_3517756189330563263_o.jpg" alt="">
+            </div> -->
+            <!-- <div class="file">
+                <button class="close">&times;</button>
+                <img src="img/51415504_1411287692340565_1728164354508980224_n.jpg" alt="">
+            </div> -->
+
+            <button class="add-photo">+</button>
+
+        </section>
+        <form action="#" method="post">
+            <input type="text" placeholder="Type a message">
+            <section>
+                <input style="display:none;" type="file" multiple id="file-input">
+                <button type="button" id="input-load-photos"><i class="fas fa-image"></i></button>
+                <button type="button"><i class="fas fa-paper-plane"></i></button>
+            </section>
+        </form>
+    </div>
+    
+</body>
+</html>
+
+<script src="js/AppController.js"></script>
+<script src="js/main.js"></script>
