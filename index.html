@@ -5,21 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>File - Uploader plugin</title>
-    <link rel="stylesheet" href="css/style.css">
+    <script>
+        const date = new Date()
+
+        if(date.getHours() >= 18) {
+
+            document.write('<link rel="stylesheet" href="css/dark-style.css">')
+
+        }else if(date.getHours() >= 6){
+
+            document.write('<link rel="stylesheet" href="css/style.css">')
+
+        }
+
+    </script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 </head>
 <body>
 
     <div class="bottom">
         <section class="file-view">
-            <!-- <div class="file">
-                <button class="close">&times;</button>
-                <img src="img/117874947_3201764546609188_3517756189330563263_o.jpg" alt="">
-            </div> -->
-            <!-- <div class="file">
-                <button class="close">&times;</button>
-                <img src="img/51415504_1411287692340565_1728164354508980224_n.jpg" alt="">
-            </div> -->
 
             <button class="add-photo">+</button>
 
